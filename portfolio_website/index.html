@@ -1,39 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Ken Quiggins | Web Developer</title>
   </head>
+
   <body>
     <header class="header vh-100 text-center position-relative">
-      <div class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
-        <h5 class="text-primary fs-3 fw-bold text-uppercase">HI,</h5>
-        <h1 class="display-1 fw-bold text-white">I am Ken Quiggins</h1>
+      <div
+        class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+        <h5 class="text-primary fs-3 fw-bold text-uppercase">Hello Friends,</h5>
+        <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
 
         <p class="roles text-white text-uppercase fs-4">
           <span class="role">Full-Stack Software Developer |</span>
           <span class="role">Web Designer |</span>
           <span class="role">Freelancer</span>
         </p>
+
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">
+              <span>More About Me 😎</span>
+            </div>
+          </div>
+        </a>
+
+        <div class="social d-flex gap-3 position-absolute">
+          <a href="#">
+            <i class="fab fa-twitter fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-youtube fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github fa-3x text-white"></i>
+          </a>
+
+        </div>
       </div>
     </header>
+
+    <!-- About -->
+    <section id="about" class="about bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold text-primary">
+            About Me
+          </h4>
+          <hr class="w-25 mx-auto">
+          <h2 class="mb-4">Let me introduce myself</h2>
+        </div>
+        <div class="about-content d-flex gap-5 align-items-center h-100">
+          <img src="images/profile.jpg" alt="ken quiggins"
+            class="about-img img-fluid rounded-circle h-100">
+          <p class="lead">
+            Welcome to my portfolio website! I'm Kenneth Quiggins, a passionate Full-Stack Web
+            Developer and Freelancer. With over 3 years of experience in web development and an
+            associate's degree in Computer Information & Technology, I bring a strong foundation and
+            dedication to every project I undertake.<br>
+            My expertise lies in the MERN Stack (MongoDB, Express.js, React.js, and Node.js), which
+            allows me to create dynamic and interactive web applications. However, my journey in the
+            world of programming has exposed me to a wide range of technologies. I have worked
+            extensively with Python and C#, among others, expanding my skill set and adapting to
+            various project requirements.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile & Skills -->
+
+    <section class="profile my-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold">Profile</h3>
+            <p>Let me give you some more information about myself</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-user text-primary"></i> Full Name:
+                </h5>
+                <p>Ken Quiggins</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-calendar text-primary"></i> Birth Date:
+                </h5>
+                <p>December 2, 1977</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-building text-primary"></i> Current Position:
+                </h5>
+                <p>Freelance Web Developer</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-envelope text-primary"></i> Email:
+                </h5>
+                <a class="btn btn-sm btn-secondary rounded shadow" href="mailto:kashfamilyvalues@gmail.com">Email me here</a>
+
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-blog text-primary"></i> Blog:
+                </h5>
+                <a class="rounded btn btn-secondary btn-sm shadow" href="https://kashfamilyvalues.editorx.io/kens-code/home">Visit my Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3>Key Skills</h3>
+            <p>With a diverse set of skills and a passion for staying at the forefront of technology, I bring a versatile toolkit that empowers me to tackle complex challenges and deliver innovative solutions.</p>
+            <h4>Languages</h4>
+            <ul class="list-group">
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">C#</li>
+              <!-- Add more languages as needed -->
+            </ul>
+            <h4>Databases</h4>
+            <ul class="list-group">
+              <li class="list-group-item">MongoDB</li>
+              <li class="list-group-item">MySQL</li>
+              <li class="list-group-item">Firebase</li>
+              <!-- Add more databases as needed -->
+            </ul>
+            <h4>Frameworks & Libraries</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Vue.js</li>
+              <li class="list-group-item">React.js</li>
+              <li class="list-group-item">Bootstrap 5</li>
+              <li class="list-group-item">Tailwind</li>
+              <li class="list-group-item"></li>
+              <!-- Add more skills as needed -->
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5 text-center">
+          <div class="col-12">
+            <a href="#" class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2">Hire me now</a>
+            <a href="#" class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
+
 </html>

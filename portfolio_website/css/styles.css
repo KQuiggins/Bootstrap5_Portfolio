@@ -1,5 +1,6 @@
 html, body {
-  overflow-y: auto;          /* allow vertical scrolling */
+  overflow-y: auto; /* allow vertical scrolling */
+  overflow-x: hidden;
 }
 
 .header {

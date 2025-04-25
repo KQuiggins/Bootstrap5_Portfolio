@@ -15,5 +15,8 @@ function typeText(text, typingElement, typingDelay) {
     }
 }
 
+
+
+
 document.addEventListener("DOMContentLoaded", runTypingEffect);
 

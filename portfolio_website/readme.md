@@ -1,40 +1,48 @@
-# Portfolio Website
+# Kenneth Quiggins - Portfolio Website
 
-This is a dark-light contrast website for a portfolio. It is related to being a web developer, but can be edited to be for any type of portfolio. It includes a bit of custom JavaScript for the typewriter effect and uses a script called "Lightbox" for the project modals.
+Welcome to the repository for my personal portfolio website. This site serves as a comprehensive showcase of my skills, projects, and professional journey as a Full-Stack Web Developer over the past few years.
 
-## Features
+It reflects my experience gained through dedicated learning, practical application, and the successful completion of my Bachelor's degree in Information Technology. Here you will find examples of my work, demonstrating my capabilities in various web technologies and my passion for creating effective and engaging digital solutions.
 
-- Dark and light contrast
-- Responsive design
-- Full height header/hero
-- Background image overlays
-- Typewriter effect in header
-- Lightbox modals for projects
-- Progress bar stats
-- Font awesome icons
+## Technologies Used
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap 5, SCSS
+* **Libraries:** Font Awesome, Lightbox2, jQuery (dependency for Lightbox2)
+* **Build Tools:** npm, Sass Compiler
+
+## Featured Projects
+
+This portfolio highlights several key projects, including:
+
+* **Comic Book Store:** A Next.js e-commerce application.
+* **Hacker Shop:** A MERN stack (MongoDB, Express, React, Node.js) e-commerce site.
+* **Creative Solutions:** A static website built with HTML, CSS, and potentially JavaScript.
+* **Hugo Blog:** A blog built using the Hugo static site generator.
+* **Marvel Explorer:** A project utilizing the Marvel API (details likely involve a frontend framework).
 
 ## Usage
 
-This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
+To get a local copy up and running follow these simple example steps.
 
-In order to customize this website, you need to install [Node.js](https://nodejs.org/en/). Then, clone this repository and run:
+### Prerequisites
 
-```bash
-npm install
-```
+You need to have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repo
+
+    ```sh
+    git clone https://github.com/your_username_/Project-Name.git
+    ```
+
+2. Install NPM packages
+
+    ```sh
+    npm install
+    ```
 
 This will install Bootstrap, Sass and Font Awesome. To build your CSS files from Sass, run:
 
 ```bash
 npm run sass:build
-```
-
-To watch your Sass files for changes, run:
-
-```bash
-npm run sass:watch
-```
-
-You can add Bootstrap variables to the `bootstrap.scss` file. You can look at the file `node_modules/bootstrap/dist/scss/_variables.scss` for a list of all the variables. Do NOT edit the `variables.scss` file directly, as it will be overwritten when you update Bootstrap.
-
-To add your own custom styles, use the `styles.scss` file

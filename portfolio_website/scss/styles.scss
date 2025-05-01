@@ -1,3 +1,8 @@
+html, body {
+    overflow-y: auto; /* allow vertical scrolling */
+    overflow-x: hidden;
+  }
+
 .header {
     background: #151515 url('../images/bg_darkmode.jpg') no-repeat center center;
 

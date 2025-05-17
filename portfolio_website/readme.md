@@ -18,7 +18,7 @@ This portfolio highlights several key projects, including:
 * **Hacker Shop:** A MERN stack (MongoDB, Express, React, Node.js) e-commerce site.
 * **Creative Solutions:** A static website built with HTML, CSS, and potentially JavaScript.
 * **Hugo Blog:** A blog built using the Hugo static site generator.
-* **Marvel Explorer:** A project utilizing the Marvel API (details likely involve a frontend framework).
+* **Internet Bank:** This is my college capstone project where I designed an cloud based internet banking system.
 
 ## Usage
 
@@ -33,7 +33,7 @@ You need to have Node.js and npm installed on your machine.
 1. Clone the repo
 
     ```sh
-    git clone https://github.com/your_username_/Project-Name.git
+    git clone https://github.com/KQuiggins/Bootstrap5_Portfolio
     ```
 
 2. Install NPM packages
